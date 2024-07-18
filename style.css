@@ -18242,7 +18242,7 @@ body:not(.is-expanded-menu):not(.primary-menu-open)
 #logo img {
   display: block;
   max-width: 250px;
-  max-height: 250px%;
+  max-height: 250px;
   margin-left: auto;
   margin-right: auto;
   transition: height 0.4s ease, padding 0.4s ease, margin 0.4s ease,
@@ -35019,3 +35019,24 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background: url('./images/slider/1.jpg');
+}
+
+.slider-caption {
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.slider-bg {
+  z-index: -1;
+}
